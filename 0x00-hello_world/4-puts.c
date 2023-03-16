@@ -1,6 +1,6 @@
 #include <stdio.h>
 /* Programming */
-int main(void)
+int main(void) /* Main */
 /* Is like building a multilingual puzzle */
 {
 	puts("\"Programming is like building a multilingual puzzle");
