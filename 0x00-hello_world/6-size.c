@@ -8,7 +8,6 @@
 int main(void)
 {
 	int i;
-	double d;
 	char c;
 	float f;
 
