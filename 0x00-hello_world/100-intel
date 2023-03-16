@@ -1,2 +1,2 @@
 #!/bin/bash
-mv "${CFILE%.*}.s" "${CFILE%.*}.s"
+gcc -S -masm=intel "$CFILE"
