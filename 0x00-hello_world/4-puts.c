@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
-* A program that outputs Programming 
-* is like building a multilingual puzzle 
-*/
+ * A program that outputs Programming 
+ * is like building a multilingual puzzle 
+ */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
