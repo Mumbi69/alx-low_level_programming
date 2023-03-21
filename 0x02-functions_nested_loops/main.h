@@ -26,5 +26,11 @@ int _islower(int c);
 * checks for lowercase character
 *
 */
+
+int _isalpha(int c);
+/**
+* checks for alphabetic character
+*
+*/
 #endif
 
