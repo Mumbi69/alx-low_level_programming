@@ -39,7 +39,11 @@ int print_sign(int n);
 *
 */
 
-
+int _abs(int);
+/**
+* computes the absolute value of an integer
+*
+*/
 
 
 
