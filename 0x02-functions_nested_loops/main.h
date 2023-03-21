@@ -20,5 +20,11 @@ void print_alphabet_x10(void);
 * prints 10 times the alphabet, in lowercase, followed by a new line.
 *
 */
+
+int _islower(int c);
+/**
+* checks for lowercase character
+*
+*/
 #endif
 
