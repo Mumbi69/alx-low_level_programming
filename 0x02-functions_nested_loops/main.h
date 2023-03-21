@@ -9,4 +9,9 @@ int _putchar(char m);
 *
 */
 
+void print_alphabet(void);
+/**
+* prints the alphabet, in lowercase, folloed by a new line.
+*
+*/
 #endif
