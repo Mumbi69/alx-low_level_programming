@@ -1,6 +1,6 @@
 /**
 * _isupper - start of a program
-*
+* @c: the character to be printed
 * Return: returns 1 if c is uppercase otherwise 0
 */
 
