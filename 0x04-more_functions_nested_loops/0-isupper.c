@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
 * _isupper - start of a program
 * @c: the character to be printed
