@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
 * _isupper - start of a program
 * @c: the character to be printed
@@ -8,7 +6,7 @@
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if ((c >= 'A') && (c <= 'Z'))
 	{
 		return (1);
 	}
