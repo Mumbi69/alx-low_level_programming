@@ -1,4 +1,4 @@
-k#include <stdio.h>
+#include <stdio.h>
 
 /**
 *main - start of the program
