@@ -84,3 +84,4 @@ int _atoi(char *s);
 * Return: always return 0
 *
 */
+#endif
