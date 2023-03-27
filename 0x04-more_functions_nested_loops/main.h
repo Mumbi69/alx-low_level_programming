@@ -4,7 +4,7 @@
 int _putchar(char s);
 
 /**
-* _putchar - writes the character m to stdout
+* _putchar - writes the character s to stdout
 * @s: The character to print
 *
 */
