@@ -1,7 +1,7 @@
 #ifndef Mumbi_header
 #define Mumbi_header
 
-int _putchar(char c)
+int _putchar(char c);
 
 /**
 * _ putchar - writes the character c to stdout
@@ -10,6 +10,7 @@ int _putchar(char c)
 */
 
 void reset_to_98(int *n);
+
 /**
 * _reset_to_98 - takes a pointer to an int as parameter and updates the value it points to to 98.
 * Return: always return 0
@@ -17,6 +18,7 @@ void reset_to_98(int *n);
 */
 
 void swap_int(int *a, int *b);
+
 /**
 * _swap -  swaps the values of two integers.
 * Return: always return 0
@@ -24,6 +26,7 @@ void swap_int(int *a, int *b);
 */
 
 int _strlen(char *s);
+
 /**
 * _strlen -  returns the length of a string.
 * Return: always return 0
