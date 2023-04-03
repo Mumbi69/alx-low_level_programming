@@ -23,6 +23,6 @@ void print_diagsums(int *a, int size)
 		sum1 += *(a + i * size + j);
 	}
 
-	printf("%d\n", sum);
-	printf("%d\n", sum1);
+	printf("%d ", sum);
+	printf("%d \n", sum1);
 }
