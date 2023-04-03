@@ -11,23 +11,21 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count = 0;
-	int found;
-	found = 0;
+	char *p;
 
-	while (*s != '\0')
+	while (*s)
 	{
-		for (char *a = accept; *a !='\0'; a++)
+		p = accept;
+
+		while (*p && *p != *s)
 		{
-			if (*s == *a)
-			{
-				count++;
-				found = 1;
-			}
+			p++;
 		}
-		if (found == 0)
+		if (*p == '\0')
 		{
 			return (count);
 		}
+		count++;
 		s++;
 	}
 	return (count);
