@@ -9,7 +9,7 @@
 * Return: 1
 */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int m = atoi(argv[1]);
 	int s = atoi(argv[2]);
