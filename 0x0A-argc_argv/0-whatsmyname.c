@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
 * _whatsmyname -  prints its name
@@ -8,6 +7,8 @@
 *
 * Return: 0
 */
+
+#pragma GCC diagnostic ignored "-Wunused-parameter"
 
 int main (int argc, char *argv[])
 {
