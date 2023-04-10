@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
 * main - main function
 * @argc: number of arguments
@@ -11,17 +12,20 @@
 
 int main(int argc, char *argv[])
 {
-	int m = atoi(argv[1]);
-	int s = atoi(argv[2]);
-	int mul;
+	int num1, num2, mul;
 
-	if (argc < 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	mul = m * s;
+
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	mul = num1 * num2;
+
 	printf("%d\n", mul);
+
 	return (0);
 }
 
