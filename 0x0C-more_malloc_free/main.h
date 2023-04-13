@@ -1,7 +1,7 @@
 #ifndef Mumbi_header
 #define Mumbi_header
 
-int _putchar(char c)
+int _putchar(char c);
 
 void *malloc_checked(unsigned int b);
 
