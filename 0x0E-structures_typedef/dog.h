@@ -1,6 +1,14 @@
 #ifndef Mumbi_header
 #define Mumbi_header
 
+/**
+* struct dog - dog info
+* @name: name of dog
+* @age: age of the dog
+* @owner: name of the owner of the dog
+*
+*/
+
 typedef struct dog
 {
 	char *name;
@@ -8,6 +16,7 @@ typedef struct dog
 	char *owner;
 } dog_t;
 
+/* Additional prototypes */
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
