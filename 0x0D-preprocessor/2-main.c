@@ -1,3 +1,6 @@
+#ifndef Mumbi_header
+#define Mumbi_header
+
 #include <stdio.h>
 
 /**
@@ -11,3 +14,5 @@ int main(void)
 	printf("%s.\n", __FILE__);
 	return (0);
 }
+
+#endif
