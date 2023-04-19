@@ -41,4 +41,3 @@ void print_reversed(char *name)
 	}
 	printf("\n");
 }
-
