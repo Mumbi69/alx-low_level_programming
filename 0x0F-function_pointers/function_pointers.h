@@ -3,7 +3,7 @@
 
 int _putchar(char c);
 
-int main(void)
+int main(void);
 
 void print_name(char *name, void (*f)(char *));
 
