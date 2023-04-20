@@ -5,7 +5,7 @@
 /**
 * print_numbers - prints integer arguments with a separator
 * @separator: ...
-* @n: - number of arguments
+* @n: number of arguments
 *
 * Return: 0
 */
