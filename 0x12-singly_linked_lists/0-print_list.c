@@ -2,18 +2,6 @@
 #include "lists.h"
 
 /**
-* list_struct - struct description
-*
-* @h: ...
-* Description: ...
-*/
-
-struct list
-{
-	int h;
-};
-
-/**
 * print_list - prints all elements of a list_t list
 * @h: ...
 * @list_t: ...
@@ -23,10 +11,22 @@ struct list
 
 size_t print_list(const list_t *h)
 {
+	size_t count = 0;
+
 	while (h != NULL)
 	{
-		printf("%d", h -> data);
-		h = h -> next;
+		if (h->str == NULL)
+		{
+			printf("[%d] (nil)\n", 0);
+		}
+
+		else
+		{
+			printf("[%d] %s\n", h->len, h->str);
+		}
+		h = h-> next;
+		count++;
 	}
+	return (count);
 }
 
