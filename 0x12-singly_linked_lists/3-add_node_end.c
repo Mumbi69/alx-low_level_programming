@@ -3,6 +3,15 @@
 #include "lists.h"
 #include <string.h>
 
+/**
+* add_node_end - adds a new node at the end of a list
+* @head: ...
+* @str: ...
+*
+* Description: returns the address of the new element
+* Return: adress of the new element
+*/
+
 list_t *add_node_end(list_t **head, const char *str)
 {
 	int value = 0;
