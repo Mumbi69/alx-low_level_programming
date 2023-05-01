@@ -6,7 +6,7 @@
 * @h: pointer to the linked list
 *
 *
-* @Return: the number of nodes
+* Return: the number of nodes
 */
 
 size_t print_listint(const listint_t *h)
@@ -21,6 +21,6 @@ size_t print_listint(const listint_t *h)
 		current = current->next;
 	}
 
-	return count;
+	return (count);
 }
 
