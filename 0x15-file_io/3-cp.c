@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <errno.h>
+#include "main.h"
 
 #define BUF_SIZE 1024
 
