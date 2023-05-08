@@ -7,6 +7,13 @@
 
 #define BUF_SIZE 1024
 
+/**
+* _cp - copies the content of a file to another file
+* @argc: ...
+* @argv: ...
+* Return: 0
+*/
+
 int main(int argc, char *argv[])
 {
 	int fd_from, fd_to;
