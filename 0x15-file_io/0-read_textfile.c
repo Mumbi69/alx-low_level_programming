@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
 * read_textfile - reads a text file and prints
 * @filename: ...
@@ -8,7 +7,6 @@
 *
 * Return: return 0
 */
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	FILE *file;
@@ -24,14 +22,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		return (0);
 	}
-	buffer = (char*) malloc(letters + 1);
-
+	buffer = (char *) malloc(letters + 1);
 	if (buffer == NULL)
 	{
 		fclose(file);
 		return (0);
 	}
-
 	bytes_read = fread(buffer, 1, letters, file);
 	if (bytes_read == -1)
 	{
@@ -39,7 +35,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(buffer);
 		return (0);
 	}
-
 	bytes_written = fwrite(buffer, 1, bytes_read, stdout);
 	if (bytes_written != bytes_read)
 	{
@@ -50,6 +45,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	fclose(file);
 	free(buffer);
-
 	return (bytes_read);
 }
