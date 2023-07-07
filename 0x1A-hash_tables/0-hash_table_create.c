@@ -32,7 +32,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	}
 
 	for (m = 0; m < size; m++)
-	ht->array[m] = NULL;
+		ht->array[m] = NULL;
 
 	return (ht);
 }
